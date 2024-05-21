@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="meir stroh" />
+    <meta name="description" content="my personal website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header class="heading-flex-container">
+      <nav id="top-nav" class="nav-grid-container">
+        <a href="./index.html" class="profile-link">
+          <picture>
+            <img
+              class="profile-pic"
+              src="./assests/img/profile-pic.png.jpg"
+              alt="profile picture"
+              height="100"
+            />
+          </picture>
+        </a>
+        <ul class="nav-list list-flex-container">
+          <li class="list-flex-item"><a href="#skills">my skills</a></li>
+          <li class="list-flex-item">
+            <a href="./public/experience.html">my experiences</a>
+          </li>
+          <li class="list-flex-item"><a href="#hobbies">my hobbies</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hi">
+        <div class="hi-container">
+          <h1 class="hi-heading">hi, i'm meir stroh</h1>
+          <h2 class="hi-sub-heading">aspiring web developer</h2>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2 class="skills-heading">my skills</h2>
+        <div class="html-container">
+          <h3 class="html-heading">html</h3>
+          <picture>
+            <img
+              class="img-html-logo"
+              src="./assests/img/html-5.png"
+              alt="html logo"
+              width="160"
+              loading="lazy"
+            />
+          </picture>
+          <caption>
+            <p class="html-text">
+              I'm really good with HTML. I can create and structure web pages
+              using HTML elements and tags. I know how to manipulate and format
+              content, add images and links, and make web pages look awesome.
+            </p>
+          </caption>
+        </div>
+
+        <div class="css-container">
+          <h3 class="css-heading">css</h3>
+          <picture>
+            <img
+              class="img-css-logo"
+              src="./assests/img/CSS-Logo.png"
+              alt="css logo"
+              width="300"
+              loading="lazy"
+            />
+          </picture>
+          <caption>
+            <p class="css-text">
+              I'm pretty good with CSS. I can style and layout web pages to make
+              them look really nice. I know how to manipulate elements, apply
+              animations, and make sure everything looks great for users.
+            </p>
+          </caption>
+        </div>
+
+        <div class="bootstrap-container">
+          <h3 class="bootstrap-heading">bootstrap</h3>
+          <picture>
+            <img
+              class="img-bootstrap-logo"
+              src="./assests/img/pngegg.png"
+              alt="bootstrap logo"
+              width="300"
+              loading="lazy"
+            />
+          </picture>
+          <caption>
+            <p class="bootstrap-text">
+              I'm skilled at using Bootstrap to create responsive and
+              user-friendly websites.
+            </p>
+          </caption>
+        </div>
+
+        <div class="artistic-container">
+          <h3 class="artistic-heading">artistic</h3>
+          <picture>
+            <img
+              class="img-artistic-pic"
+              src="./assests/img/paint.jpg"
+              alt="artist photo"
+              width="300"
+              loading="lazy"
+            />
+          </picture>
+          <caption>
+            <p class="artistic-text">
+              I have a strong artistic talent for design, with a keen eye for
+              creating visually appealing designs in various forms such as
+              graphic design and web design.
+            </p>
+          </caption>
+        </div>
+
+        <div class="analytical-container">
+          <h3 class="analytical-heading">Analytical</h3>
+          <picture>
+            <img
+              class="img-analytical-pic"
+              src="./assests/img/analytics.jpg"
+              alt="analytic photo"
+              width="300"
+              loading="lazy"
+            />
+          </picture>
+          <caption>
+            <p class="analytical-text">
+              I have strong analytical skills that enable me to effectively
+              dissect complex problems and draw valuable conclusions.
+            </p>
+          </caption>
+        </div>
+      </section>
+
+      <section id="hobbies">
+        <h2 class="hobbies-heading">my hobbies</h2>
+
+        <div class="hobbies-grid-container">
+          <h3 class="hb-grid-item painting-heading">painting</h3>
+          <picture class="hb-grid-item painting-picture">
+            <img
+              src="./assests/img/painting.jpg"
+              alt="painting picture"
+              width="300"
+              loading="lazy"
+              class="grid-img"
+            />
+          </picture>
+          <p class="hb-grid-item painting-text">
+            I'm really into acrylic painting. It's so versatile and lets me get
+            really creative in all sorts of ways. I love experimenting with
+            different techniques and color combinations to create unique
+            artwork.
+          </p>
+
+          <h3 class="hb-grid-item hiking-heading">hiking</h3>
+          <picture class="hb-grid-item hiking-picture">
+            <img
+              src="./assests/img/hiking.jpg"
+              alt="hiking image"
+              width="250"
+              loading="lazy"
+              class="grid-img"
+            />
+          </picture>
+          <p class="hb-grid-item hiking-text">
+            I love hiking. It's my way of disconnecting and connecting with
+            nature. Plus, it keeps me active and healthy.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-flex-container">
+        <h2 class="contact-heading">contact me</h2>
+        <picture class="contact-picture">
+          <img
+            src="./assests/img/profile-pic.png.jpg"
+            alt="profile picture"
+            class="profile-pic"
+          />
+        </picture>
+        <p class="contact-text">If you like what u see contact me.</p>
+        <a href="./public/contact.html"><button>contact me</button></a>
+      </section>
+    </main>
+
+    <footer style="background-color: whitesmoke; padding: 10px;">
+      <div class="container">
+        <footer class="py-3 my-5">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary"
+                >Back to Top</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link px-2 text-body-secondary"
+                >My Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#hobbies" class="nav-link px-2 text-body-secondary"
+                >My Hobbies</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="./public/experience.html"
+                class="nav-link px-2 text-body-secondary"
+                >My Experiences</a
+              >
+            </li>
+          </ul>
+          <p class="text-center text-body-secondary">© Meir Stroh</p>
+        </footer>
+      </div>
+    </footer>
+  </body>
+</html>
