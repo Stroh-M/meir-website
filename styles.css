@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0px;
+  overflow-x: hidden;
 }
 
 .heading-flex-container {
@@ -32,6 +33,7 @@ a {
   color: #3f4aa0;
   font-size: 20px;
   text-transform: uppercase;
+  transition: all .3s ease-in-out .1s;
 }
 
 a:hover {
@@ -252,12 +254,13 @@ button {
   padding: 10px;
   border: 15px;
   margin-top: 30px;
+  transition: all .3s;
 }
 
 button:hover {
   background-color:#3f4aa0;
   color: white;
-  border: 0px;
+  border: #9ca6f1d5 solid 5px;
 }
 
 .skills-heading,
